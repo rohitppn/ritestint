@@ -1,0 +1,306 @@
+/*
+Theme Name: Freeio
+Theme URI: https://themeforest.net/item/freeio-freelance-marketplace-wordpress-theme/42045416
+Author: ApusTheme
+Author URI: https://themeforest.net/user/apustheme
+Description: Freeio is a Freelance Marketplace WordPress theme with some exciting features and excellent code quality.
+Version: 1.2.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: freeio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    clear: both;
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    clear: right;
+    margin: 5px 0 32px 2em;
+}
+
+.wp-block-image .alignright {
+    margin-left: 2em;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 2em 32px 0;
+}
+
+.wp-block-image .alignleft {
+    margin-right: 2em;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    max-width: 96%;
+    /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 5px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 5px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 5px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+.gallery-caption {
+    box-sizing: border-box;
+}
+
+.bypostauthor {
+    box-sizing: border-box;
+}
+
+.wp-block-pullquote {
+    border: none;
+}
+
+.wp-block-archives.aligncenter,
+.wp-block-categories.aligncenter,
+.wp-block-latest-posts.aligncenter {
+    text-align: center;
+}
+
+.wp-block-cover {
+    margin-bottom: 28px;
+}
+
+.wp-block-embed {
+    margin-bottom: 30px;
+}
+
+.product-block.grid .product-image {
+    width: 100%;
+}
+
+.product-block.grid .product-image img {
+    width: 100%;
+}
+
+.bread-title {
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.advane-search-wrapper-fields {
+    display: none;
+}
+
+.wp-block-cover.has-background-dim .wp-block-cover-text {
+    color: #fff;
+}
+
+.wp-block-button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo-theme img {
+    max-width: 150px;
+}
+
+/* fix */
+
+p {
+    margin-bottom: 20px;
+}
+
+.main-page.full-default {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.cmb-th span.required {
+    color: red;
+}
+
+@media(max-width: 767px) {
+    .widget-listing-search-form.horizontal .form-group-location {
+        flex-wrap: wrap;
+    }
+    .widget-listing-search-form.horizontal .form-group-location>div~div {
+        margin-top: 15px;
+    }
+}
+
+.contact-form-agent .agent-content .email {
+    word-wrap: break-word;
+}
+
+.elementor-lightbox .elementor-swiper-button {
+    outline: none !important;
+}
+
+@media(max-width: 1200px) {
+    .elementor-lightbox .elementor-swiper-button {
+        cursor: auto;
+    }
+}
+
+.listing-detail-gallery.v1 .image-wrapper {
+    text-align: center;
+}
+
+.listing-detail-gallery.v1 img {
+    display: inline;
+}
+
+.row.row-padding-5 {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.row-padding-5 .col-xs-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.listings-currencies .currencies {
+    list-style: none;
+    margin: 0;
+    padding: 15px 30px;
+}
+
+.listings-currencies .currencies li label {
+    width: 100%;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.listings-currencies .currencies li.active label,
+.listings-currencies .currencies li label:hover {
+    color: #ff5a5f;
+}
+
+.currencies-wrapper .dropdown-toggle i {
+    margin-left: 7px;
+}
+
+.form-group-price.list ul.price-filter {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.form-group-price.list ul.price-filter li {
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+.form-group-price.list ul.price-filter li:hover {
+    color: #ff5a5f;
+}
+
+.my_resume_eduarea .content>* {
+    word-wrap: break-word;
+}
+
+.message-top .notifications-wrapper {
+    max-height: 500px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+@media(min-width:1200px) {
+    .dashboard-notifications {
+        max-height: 630px;
+        overflow-y: auto;
+        scrollbar-width: thin;
+    }
+}
